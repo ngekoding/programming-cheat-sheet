@@ -1,4 +1,4 @@
-# toki-cheat-sheet
+# programming-cheat-sheet
 Beberapa contekan untuk programming contest
 
 #### Cara cepat menentukan bilangan prima
