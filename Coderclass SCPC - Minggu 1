@@ -1,0 +1,44 @@
+### Soal A - Saluran Televisi
+
+####Saluran Televisi
+Time limit: 1 s
+Memory limit: 64 MB
+
+Di negara Pak Chanek, terdapat banyak saluran televisi. Saluran televisi itu biasa disimpan televisi dengan nomor referensi tertentu. Misalnya, jika Pak Chanek menyimpan saluran bernama CTV (Chanek TV) pada nomor referensi 8, dia dapat menekan tombol di remote angka 8 untuk membuat televisinya menampilkan saluran CTV.
+
+Televisi Pak Chanek dapat menampung 100 buah saluran, dengan nomor referensi 0 sampai 99. Pada suatu hari, Pak Chanek mendapati bahwa televisinya sedang menyiarkan saluran CTV. Sayangnya, Pak Chanek tidak tahu saluran itu tersimpan pada nomor referensi berapa. Untuk mengetahuinya, Pak Chanek akan melakukan salah satu dari dua cara berikut:
+
+    Menekan tombol "next", sehingga televisinya menampilkan saluran yang tersimpan pada nomor referensi sesudahnya. Misalkan saat ini televisi menyiarkan saluran pada nomor referensi 10, maka menekan tombol ini akan membuat televisi menampilkan saluran pada nomor referensi 11. Sebagai catatan, sesudah nomor 99 adalah 0.
+    Menekan tombol "prev", sehingga televisinya menampilkan saluran yang tersimpan pada nomor referensi sebelumnya. Misalkan saat ini televisi menyiarkan saluran pada nomor referensi 10, maka menekan tombol ini akan membuat televisi menampilkan saluran pada nomor referensi 9. Sebagai catatan, sebelum nomor 0 adalah 99.
+
+Sesaat setelah saluran televisi berubah, nomor referensinya akan muncul di layar televisi. Tentunya sesudah itu Pak Chanek dapat mengetahui nomor referensi berapa yang menyimpan saluran CTV. Misalkan setelah ditekan "next" kemudian yang ditampilkan adalah nomor 17. Artinya, saluran CTV berada pada nomor referensi 16.
+
+Tugas Anda adalah membantu Pak Chanek menentukan nomor referensi berapa yang menyimpan saluran CTV sesudah dilakukan salah satu cara di atas!
+Format Masukan
+
+Baris pertama berisi sebuah bilangan bulat T
+, yaitu banyaknya kasus uji. Untuk setiap kasus uji: Baris pertama berisi sebuah string "next" atau "prev" yang menunjukkan operasi yang dilakukan Pak Chanek. Baris berikutnya berisi sebuah bilangan bulat X
+
+yang menyatakan nomor referensi yang ditunjukkan televisi setelah Pak Chanek melakukan operasi di atasnya.
+Format Keluaran
+
+Untuk setiap kasus, keluarkan nomor referensi yang menyimpan saluran CTV.
+
+##### Contoh Masukan
+3
+next
+3
+next
+18
+prev
+91
+
+##### Contoh Keluaran
+2
+17
+92
+
+##### Batasan
+
+    1≤T≤200
+    0≤X≤99
