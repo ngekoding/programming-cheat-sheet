@@ -42,3 +42,61 @@ prev
 
     1≤T≤200
     0≤X≤99
+
+
+# Soal B - Panggilan Akrab
+
+Panggilan Akrab
+Time limit: 2 s
+Memory limit: 64 MB
+
+Pak Chanek memiliki N
+orang sahabat yang masing-masing (tentunya) memiliki nama. Karena mereka semua adalah sahabat karib, maka Pak Chanek memanggil mereka dengan panggilan akrab. Sebuah panggilan akrab untuk orang bernama S adalah P, dengan P merupakan substring dari S dan memiliki panjang maksimum 4 karakter. P juga harus terdiri dari setidaknya 1 huruf vokal dan 1 huruf konsonan. Sebagai contoh, misalkan S
+
+= "bambang". Maka, panggilan akrab yang mungkin adalah "bam", "amb", "bang", dan "amba". Sedangkan, yang bukan termasuk panggilan akrabnya adalah "mb", "a", "bmbn", dan "bamba".
+
+Sayangnya, panggilan akrab ini kadang-kadang membuat sahabat Pak Chanek bingung. Misalnya Pak Chanek memiliki sahabat bernama "jokosusilo" dan "susykosasih". Bila Pak Chanek memanggil dengan panggilan akrab "sus" atau "kos", maka keduanya akan merasa terpanggil. Hal ini terjadi karena "sus" dan "kos" merupakan panggilan akrab bagi kedua orang itu.
+
+Diberikan daftar nama-nama sahabat Pak Chanek. Pak Chanek ingin tahu ada berapa banyak pasangan sahabatnya, sedemikian sehingga terdapat suatu panggilan akrab yang menyebabkan keduanya merasa terpanggil. Bantulah dia!
+Format Masukan
+
+Baris pertama berisi sebuah bilangan bulat T
+, yang menyatakan banyaknya kasus uji. Untuk setiap kasus uji: Baris pertama berisi sebuah bilangan bulat N. N
+
+baris berikutnya masing-masing berisi nama seorang sahabat Pak Chanek.
+Format Keluaran
+
+Untuk setiap kasus uji, keluarkan sebuah baris berisi banyaknya pasangan sahabat Pak Chanek, sedemikian sehingga terdapat suatu panggilan akrab yang menyebabkan pasangan tersebut merasa terpanggil.
+
+# Contoh Masukan
+3
+4
+martinus
+chakra
+irwanto
+ghazali
+3
+febriano
+verdiyantez
+wahyudi
+1
+mun
+
+# Contoh Keluaran
+1
+2
+0
+
+# Penjelasan
+Pada kasus kedua: "febriano" dan "verdiyantez" akan merasa terpanggil dengan panggilan "an" "verdiyantez" dan "wahyudi" akan merasa terpanggil dengan panggilan "di"
+Batasan
+
+    1≤T≤20
+
+1≤N≤30
+
+    Nama setiap orang hanya terdiri dari karakter-karakter 'a'..'z' Panjang nama setiap orang berada di antara 1 sampai dengan 30 karakter (inklusif) Mungkin ada beberapa teman Pak Chanek yang memiliki nama sama persis
+
+# Catatan
+
+Yang termasuk dalam huruf vokal adalah 'a', 'e', 'i', 'o', dan 'u' Huruf lainnya dalam alfabet yang tidak termasuk huruf vokal adalah huruf konsonan
