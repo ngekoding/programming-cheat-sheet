@@ -1,6 +1,6 @@
-### Soal A - Saluran Televisi
+# Soal A - Saluran Televisi
 
-####Saluran Televisi
+Saluran Televisi
 Time limit: 1 s
 Memory limit: 64 MB
 
@@ -24,7 +24,7 @@ Format Keluaran
 
 Untuk setiap kasus, keluarkan nomor referensi yang menyimpan saluran CTV.
 
-##### Contoh Masukan
+## Contoh Masukan
 3
 next
 3
@@ -33,12 +33,12 @@ next
 prev
 91
 
-##### Contoh Keluaran
+## Contoh Keluaran
 2
 17
 92
 
-##### Batasan
+## Batasan
 
     1≤T≤200
     0≤X≤99
