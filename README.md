@@ -21,3 +21,9 @@ bool isPrime(int num) {
     return true;
 }
 ```
+#### Cek Palindrome
+```
+boolean checkPalindrome(String inputString) {
+    return inputString.equals(new StringBuffer(inputString).reverse().toString());
+}
+```
