@@ -27,3 +27,17 @@ boolean checkPalindrome(String inputString) {
     return inputString.equals(new StringBuffer(inputString).reverse().toString());
 }
 ```
+#### Mencari nilai terbesar/terkecil dalam List
+```
+Collections.max(<List>)
+```
+###### Contoh pemakaian
+```
+int adjacentElementsProduct(int[] inputArray) {
+    List<Integer> result = new ArrayList<>();
+    for (int i = 0; i < inputArray.length - 1; i++) {
+        result.add(inputArray[i] * inputArray[i + 1]);
+    }
+    return (int) Collections.max(result);
+}
+```
